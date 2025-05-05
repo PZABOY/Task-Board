@@ -1,0 +1,66 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Do Or Die!</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="main.js"></script>
+
+    </head>
+
+    <body onload="loadData()">
+
+        <div class="parent">
+            <div class="div_header">
+                <header>
+                    💀 Do or DIE ⏳
+                </header>
+            </div>
+
+            <div class="div_guid">
+                <p> Can't keep up with your tasks? <br> Grab this tool, get it done or pay the price! <br> MWAHAHA!
+                </p>
+
+            </div>
+            <div class="div_form">
+                <form onsubmit="addTodo()" method="dialog">
+                    <label>What next?</label>
+                    <br>
+                    <textarea id="taskTextBox"></textarea>
+                    <br><br>
+
+                    <label>When?</label>
+                    <br>
+                    <input type="datetime-local" id="timeTextBox">
+                    <br><br>
+
+                    <button class="action_button">Let' do it!</button>
+                    <button type="reset" class="clear_button">Clear</button>
+
+                </form>
+
+            </div>
+            <div class="div_tasks">
+                <div id="containerDiv"> </div>
+            </div>
+
+            <div class="div_footer">
+                <footer>
+                    <hr>
+                    <br>
+                    Copyright 2025 Eliav Mendelsohn | PZA
+                    <br>
+
+                </footer>
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+
+    </html>
