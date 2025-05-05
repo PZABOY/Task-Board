@@ -27,16 +27,10 @@ Coming soon — or run it locally as shown below 👇
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/PZABOY/Task-Board.git
 ```
 
-2. Open the project folder:
-
-```bash
-cd YOUR_REPO_NAME
-```
-
-3. Run with Live Server (recommended) or just open `index.html` in your browser.
+2. Run with Live Server (recommended) or just open `index.html` in your browser.
 
 ---
 
@@ -48,8 +42,6 @@ cd YOUR_REPO_NAME
  ├  \u📄 style.css
  ├  \u📄 main.js
 ```
-
-
 
 ---
 
